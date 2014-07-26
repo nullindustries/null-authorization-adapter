@@ -1,0 +1,50 @@
+{
+  "name": "null-authorization-adapter",
+  "version": "0.0.4",
+  "description": "null-authorization adapter",
+  "node": ">= 0.4.0",
+  "main": "build/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nullindustries/null-authorization-adapter.git"
+  },
+  "keywords": [
+    "authorization",
+    "acl",
+    "permissions",
+    "xaclm",
+    "shiro"
+  ],
+  "author": "null industries",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nullindustries/null-authorization-adapter/issues"
+  },
+  "homepage": "https://github.com/nullindustries/null-authorization-adapter",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "coffee-coverage": "*",
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-coffee": "^0.10.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-env": "~0.4.1",
+    "grunt-mkdir": "~0.1.1",
+    "grunt-mocha-test": "~0.11.0",
+    "grunt-shell": "^0.7.0",
+    "mocha": "*",
+    "precommit-hook": "juanpgaviria/precommit-hook",
+    "proxyquire": "^1.0.1",
+    "should": "*",
+    "sinon": "~1.7.3",
+    "supertest": "0.8.3"
+  }
+}
